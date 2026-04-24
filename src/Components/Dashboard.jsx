@@ -71,10 +71,10 @@ const Dashboard = () => {
           {activeSection === "overview"
             ? "Dashboard Overview"
             : activeSection === "users"
-            ? "All Users"
-            : activeSection === "create-user"
-            ? "Create New User"
-            : "Dashboard"}
+              ? "All Users"
+              : activeSection === "create-user"
+                ? "Create New User"
+                : "Dashboard"}
         </h1>
         <div className="header-actions">
           <button

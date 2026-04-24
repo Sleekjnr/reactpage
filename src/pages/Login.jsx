@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import "./Login.css";
 
 const Login = () => {
@@ -20,6 +20,9 @@ const Login = () => {
   return (
     <div className="container">
       <div className="form-container">
+        <Link to="/" className="back-to-site">
+          ← Back to website
+        </Link>
         <h2>Welcome Back 👋</h2>
         <p className="subtitle">
           Today is a new day. It’s your day. You shape it. Sign in to start

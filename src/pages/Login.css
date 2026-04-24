@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  font-family: "Outfit", system-ui, sans-serif;
 }
 
 body {
@@ -24,6 +24,19 @@ body {
 .form-container {
   flex: 1;
   padding: 50px 40px;
+}
+
+.back-to-site {
+  display: inline-block;
+  margin-bottom: 1.25rem;
+  font-size: 0.9rem;
+  color: #0b3954;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.back-to-site:hover {
+  text-decoration: underline;
 }
 
 h2 {
@@ -78,7 +91,7 @@ input:focus {
   width: 100%;
   padding: 12px;
   background-color: #0b3954;
-  color: white;
+  color: black;
   border: none;
   border-radius: 10px;
   font-size: 1rem;
@@ -127,6 +140,7 @@ input:focus {
   cursor: pointer;
   transition: 0.3s;
   background-color: white;
+  color: black;
 }
 
 .social img {
@@ -135,19 +149,20 @@ input:focus {
 }
 
 .social.google:hover {
-  background-color: #f7f7f7;
+  background-color: #0f0101;
   border-color: #db4437;
   color: #db4437;
 }
 
 .social.facebook:hover {
-  background-color: #f7f7f7;
+  background-color: #050000;
   border-color: #4267b2;
   color: #4267b2;
 }
 
 .signup {
   margin-top: 25px;
+  color: #000;
   font-size: 0.9rem;
   text-align: center;
 }

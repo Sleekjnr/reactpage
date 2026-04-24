@@ -26,7 +26,11 @@ const Sidebar = () => {
             </Link>
           </li>
           <li>
-            <Link to="/" className="nav-link">
+            <Link
+              to="/login"
+              className="nav-link"
+              onClick={() => localStorage.removeItem("isLoggedIn")}
+            >
               Logout
             </Link>
           </li>
